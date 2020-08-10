@@ -60,7 +60,7 @@ describe('Pages', () => {
     expect(res.send.calledWith('NaoDivisivel')).to.be.true
   })
 
-  it('should calc properly - nao divisivel zero', () => {
+  it('should calc properly - nao divisivel zero ', () => {
     const req = {
       params: {
         num1: 10,
